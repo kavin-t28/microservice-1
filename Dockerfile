@@ -1,5 +1,5 @@
 # Dockerfile for service1
-FROM node:14
+FROM node:16
 WORKDIR /app
 COPY app/ .
 RUN npm install
